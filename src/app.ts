@@ -20,6 +20,8 @@ app.get('/', (req: Request, res: Response) => {
   res.send('Hello developer!')
 })
 
+// create default admin
+
 // global error handler
 app.use(globalErrorHandler)
 
